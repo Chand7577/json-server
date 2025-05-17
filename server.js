@@ -10,9 +10,9 @@ server.use(cors());
 
 server.use(middlewares);
 
-server.use('/api', router);  // You can change '/api' to whatever base path you prefer
+server.use('/api', router); 
 
-// Start the server on a specific port (e.g., 3000)
-server.listen(process.env.PORT || 3000, () => {
+
+server.listen( 3000, () => {
   console.log('JSON Server is running');
 });
