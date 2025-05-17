@@ -12,4 +12,4 @@ In this project, it powers all CRUD operations:
 Start it with:
 
 ```bash
-npx json-server --watch db.json --port 8000
+npm start
